@@ -51,6 +51,8 @@
   }
 
   .content {
+    padding-top: 1rem;
+    
     > h2 {
       font-size: 1.5rem;
 
@@ -89,7 +91,7 @@
     h5,
     h6 {
       font-weight: bold;
-      margin: 1.2rem 0;
+      margin: 2rem 0 1rem 0;
 
       [theme=dark] & {
         font-weight: bolder;
@@ -212,6 +214,7 @@
     img {
       max-width: 100%;
       min-height: 1em;
+      margin: 1rem 0;
     }
 
     figure {

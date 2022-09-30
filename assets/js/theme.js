@@ -386,7 +386,7 @@ var Theme = /*#__PURE__*/function () {
               var title = _ref5.title,
                   date = _ref5.date,
                   context = _ref5.context;
-              return "<div><span class=\"suggestion-title\">".concat(title, "</span><span class=\"suggestion-date\">").concat(date, "</span></div><div class=\"suggestion-context\">").concat(context, "</div>");
+              return "<div><span class=\"suggestion-title\">".concat(title, "</span></div><div class=\"suggestion-context\">").concat(context, "</div>");
             },
             empty: function empty(_ref6) {
               var query = _ref6.query;

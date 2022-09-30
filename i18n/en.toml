@@ -105,10 +105,10 @@ other = "Share on"
 other = "Contents"
 
 [publishedOnDate]
-other = "published on {{ .Date }}"
+other = "{{ .Date }}"
 
 [includedInCategories]
-other = "included in {{ .Categories }}"
+other = "{{ .Categories }}"
 
 [wordCount]
 one = "One word"
@@ -137,7 +137,7 @@ other = "Back"
 other = "Home"
 
 [readMore]
-other = "Read More"
+other = "» Read more"
 # === posts/single.html ===
 
 # === 404.html ===

@@ -9,7 +9,7 @@
 
       img {
         display: inline-block;
-        width: 8rem;
+        width: 20rem;
         height: auto;
         margin: 0 auto;
         @include border-radius(100%);
@@ -18,7 +18,7 @@
 
         &:hover {
           position: relative;
-          @include transform(translateY(-.75rem));
+          @include transform(scale(.9));
         }
       }
     }
@@ -31,7 +31,7 @@
     }
 
     .home-subtitle {
-      font-size: 1rem;
+      font-size: 1.3rem;
       font-weight: normal;
       margin: 0;
       padding: .5rem;
@@ -39,7 +39,7 @@
 
     .links {
       padding: .5rem;
-      font-size: 1.5rem;
+      font-size: 2rem;
 
       a * {
         vertical-align: text-bottom;
@@ -69,11 +69,11 @@
 .home[data-home=posts] {
   .home-profile {
     @include transform(translateY(0));
-    padding-top: 2rem;
+    padding-top: 6rem;
   }
 
   .home-avatar img {
-    width: 6rem;
+    width: 20rem;
   }
 
   .summary {

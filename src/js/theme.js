@@ -272,7 +272,7 @@ class Theme {
                     }
                 },
                 templates: {
-                    suggestion: ({ title, date, context }) => `<div><span class="suggestion-title">${title}</span><span class="suggestion-date">${date}</span></div><div class="suggestion-context">${context}</div>`,
+                    suggestion: ({ title, date, context }) => `<div><span class="suggestion-title">${title}</span></div><div class="suggestion-context">${context}</div>`,
                     empty: ({ query }) => `<div class="search-empty">${searchConfig.noResultsFound}: <span class="search-query">"${query}"</span></div>`,
                     footer: ({}) => {
                         const { searchType, icon, href } = searchConfig.type === 'algolia' ? {

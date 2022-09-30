@@ -1,7 +1,8 @@
 {{- if ne .Site.Params.footer.enable false -}}
     <footer class="footer">
         <div class="footer-container">
-            {{- /* Custom Content */ -}}
+            <!--
+                {{- /* Custom Content */ -}}
             {{- with .Site.Params.footer.custom -}}
                 <div class="footer-line">
                     {{- safeHTML . -}}
@@ -46,6 +47,7 @@
                     <span class="icp">{{ . | safeHTML }}</span>
                 {{- end -}}
             </div>
+            -->
         </div>
     </footer>
 {{- end -}}
