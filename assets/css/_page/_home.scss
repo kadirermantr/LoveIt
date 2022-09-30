@@ -69,7 +69,7 @@
 .home[data-home=posts] {
   .home-profile {
     @include transform(translateY(0));
-    padding-top: 6rem;
+    padding-top: 4rem;
   }
 
   .home-avatar img {
