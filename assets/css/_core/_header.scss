@@ -3,6 +3,7 @@ header {
   z-index: 150;
   background-color: $header-background-color;
   @include transition(box-shadow 0.3s ease);
+  @include box-shadow(0 0 1.5rem 0 rgba(0, 0, 0, .1));
 
   [theme=dark] & {
     background-color: $header-background-color-dark;
@@ -20,10 +21,6 @@ header {
 
   .header-title-post {
     padding-left: .25rem;
-  }
-
-  &:hover {
-    @include box-shadow(0 0 1.5rem 0 rgba(0, 0, 0, .1));
   }
 }
 
