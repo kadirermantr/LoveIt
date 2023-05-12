@@ -12,20 +12,20 @@ $global-font-weight: 400 !default;
 $global-line-height: 1.5rem !default;
 
 // Color of the background
-$global-background-color: #fff !default;
-$global-background-color-dark: #292a2d !default;
+$global-background-color: #f8f8f8 !default;
+$global-background-color-dark: #15202B !default;
 
 // Color of the text
-$global-font-color: #161209 !default;
-$global-font-color-dark: #a9a9b3 !default;
+$global-font-color: #333 !default;
+$global-font-color-dark: #ccc !default;
 
 // Color of the secondary text
-$global-font-secondary-color: #a9a9b3 !default;
+$global-font-secondary-color: #ccc !default;
 $global-font-secondary-color-dark: #5d5d5f !default;
 
 // Color of the link
-$global-link-color: #161209 !default;
-$global-link-color-dark: #a9a9b3 !default;
+$global-link-color: #333 !default;
+$global-link-color-dark: #ccc !default;
 
 // Color of the hover link
 $global-link-hover-color: #2d96bd !default;
@@ -41,7 +41,7 @@ $global-border-color-dark: #363636 !default;
 $scrollbar-color: #87878d !default;
 
 // Color of the hover scrollbar
-$scrollbar-hover-color: #a9a9b3 !default;
+$scrollbar-hover-color: #ccc !default;
 // ========== Scrollbar ========== //
 
 // ========== Selection ========== //
@@ -59,11 +59,11 @@ $header-title-font-family: $global-font-family !default;
 $header-title-font-size: 1.5rem !default;
 
 // Color of the header background
-$header-background-color: #f8f8f8 !default;
-$header-background-color-dark: #252627 !default;
+$header-background-color: #f0f0f0 !default;
+$header-background-color-dark: #151a23 !default;
 
 // Color of the hover header item
-$header-hover-color: #161209 !default;
+$header-hover-color: #333 !default;
 $header-hover-color-dark: #fff !default;
 
 // Color of the search background
@@ -85,7 +85,7 @@ $single-link-hover-color: #ef3982 !default;
 $single-link-hover-color-dark: #bdebfc !default;
 
 // Color of the table background
-$table-background-color: #fff !default;
+$table-background-color: #f8f8f8 !default;
 $table-background-color-dark: #272c34 !default;
 
 // Color of the table thead
@@ -100,7 +100,7 @@ $blockquote-color-dark: #59c5ec !default;
 // ========== Pagination ========== //
 // Color of the link in pagination
 $pagination-link-color: #2d96bd !default;
-$pagination-link-color-dark: #a9a9b3 !default;
+$pagination-link-color-dark: #ccc !default;
 
 // Color of the hover link in pagination
 $pagination-link-hover-color: #000 !default;
@@ -125,62 +125,62 @@ $code-info-color-dark: #b1b0b0 !default;
 
 // Code type list
 $code-type-list:
-  "language-bash" "Bash",
-  "language-c" "C",
-  "language-cs" "C#",
-  "language-cpp" "C++",
-  "language-clojure" "Clojure",
-  "language-coffeescript" "CoffeeScript",
-  "language-css" "CSS",
-  "language-dart" "Dart",
-  "language-diff" "Diff",
-  "language-erlang" "Erlang",
-  "language-go" "Go",
-  "language-go-html-template" "Go HTML Template",
-  "language-groovy" "Groovy",
-  "language-haskell" "Haskell",
-  "language-html" "HTML",
-  "language-http" "HTTP",
-  "language-xml" "XML",
-  "language-java" "Java",
-  "language-js" "JavaScript",
-  "language-javascript" "JavaScript",
-  "language-json" "JSON",
-  "language-kotlin" "Kotlin",
-  "language-latex" "LaTeX",
-  "language-less" "Less",
-  "language-lisp" "Lisp",
-  "language-lua" "Lua",
-  "language-makefile" "Makefile",
-  "language-markdown" "Markdown",
-  "language-matlab" "Matlab",
-  "language-objectivec" "Objective-C",
-  "language-php" "PHP",
-  "language-perl" "Perl",
-  "language-powershell" "PowerShell",
-  "language-posh" "PowerShell",
-  "language-pwsh" "PowerShell",
-  "language-python" "Python",
-  "language-r" "R",
-  "language-ruby" "Ruby",
-  "language-rust" "Rust",
-  "language-scala" "Scala",
-  "language-scss" "Scss",
-  "language-shell" "Shell",
-  "language-sql" "SQL",
-  "language-swift" "Swift",
-  "language-tex" "TeX",
-  "language-toml" "TOML",
-  "language-ts" "TypeScript",
-  "language-typescript" "TypeScript",
-  "language-vue" "Vue",
-  "language-yml" "YAML",
-  "language-yaml" "YAML",
-  !default;
+        "language-bash" "Bash",
+        "language-c" "C",
+        "language-cs" "C#",
+        "language-cpp" "C++",
+        "language-clojure" "Clojure",
+        "language-coffeescript" "CoffeeScript",
+        "language-css" "CSS",
+        "language-dart" "Dart",
+        "language-diff" "Diff",
+        "language-erlang" "Erlang",
+        "language-go" "Go",
+        "language-go-html-template" "Go HTML Template",
+        "language-groovy" "Groovy",
+        "language-haskell" "Haskell",
+        "language-html" "HTML",
+        "language-http" "HTTP",
+        "language-xml" "XML",
+        "language-java" "Java",
+        "language-js" "JavaScript",
+        "language-javascript" "JavaScript",
+        "language-json" "JSON",
+        "language-kotlin" "Kotlin",
+        "language-latex" "LaTeX",
+        "language-less" "Less",
+        "language-lisp" "Lisp",
+        "language-lua" "Lua",
+        "language-makefile" "Makefile",
+        "language-markdown" "Markdown",
+        "language-matlab" "Matlab",
+        "language-objectivec" "Objective-C",
+        "language-php" "PHP",
+        "language-perl" "Perl",
+        "language-powershell" "PowerShell",
+        "language-posh" "PowerShell",
+        "language-pwsh" "PowerShell",
+        "language-python" "Python",
+        "language-r" "R",
+        "language-ruby" "Ruby",
+        "language-rust" "Rust",
+        "language-scala" "Scala",
+        "language-scss" "Scss",
+        "language-shell" "Shell",
+        "language-sql" "SQL",
+        "language-swift" "Swift",
+        "language-tex" "TeX",
+        "language-toml" "TOML",
+        "language-ts" "TypeScript",
+        "language-typescript" "TypeScript",
+        "language-vue" "Vue",
+        "language-yml" "YAML",
+        "language-yaml" "YAML",
+!default;
 
 // Color map of the code highlight
 $code-highlight-color-map: (
-  /* Parentheses */ "p": #a9a9b3,
+  /* Parentheses */ "p": #ccc,
   /* Keyword */ "k": #b501a9,
   /* KeywordConstant */ "kc": #b501a9,
   /* KeywordDeclaration */ "kd": #b501a9,
@@ -255,7 +255,7 @@ $code-highlight-color-map: (
   /* TextWhitespace */ "w": #bbbbbb,
 ) !default;
 $code-highlight-color-map-dark: (
-  /* Parentheses */ "p": #a9a9b3,
+  /* Parentheses */ "p": #ccc,
   /* Keyword */ "k": #d371e3,
   /* KeywordConstant */ "kc": #d371e3,
   /* KeywordDeclaration */ "kd": #d371e3,
@@ -276,7 +276,7 @@ $code-highlight-color-map-dark: (
   /* NameFunctionMagic */ "fm": #19b9c4,
   /* NameLabel */ "nl": #41b0f5,
   /* NameNamespace */ "nn": #41b0f5,
-  /* NameOther */ "nx": #a9a9b3,
+  /* NameOther */ "nx": #ccc,
   /* NameProperty */ "py": #41b0f5,
   /* NameTag */ "nt": #41b0f5,
   /* NameVariable */ "nv": #41b0f5,
@@ -334,17 +334,17 @@ $code-highlight-color-map-dark: (
 // ========== Admonition ========== //
 // Color list of admonition [$type $color $background-color, ... ]
 $admonition-color-list:
-  "note" #448aff rgba(68, 138, 255, 0.1),
-  "abstract" #00b0ff rgba(0, 176, 255, 0.1),
-  "info" #00b8d4 rgba(83, 211, 230, 0.1),
-  "tip" #00bfa5 rgba(0, 191, 165, 0.1),
-  "success" #00c853 rgba(0, 200, 83, 0.1),
-  "question" #64dd17 rgba(100, 221, 23, 0.1),
-  "warning" #ff9100 rgba(255, 145, 0, 0.1),
-  "failure" #ff5252 rgba(255, 82, 82, 0.1),
-  "danger" #ff1744 rgba(68, 138, 255, 0.1),
-  "bug" #f50057 rgba(255, 23, 68, 0.1),
-  "example" #651fff rgba(101, 31, 255, 0.1),
-  "quote" #9e9e9e rgba(159, 159, 159, 0.1),
-  !default;
+        "note" #448aff rgba(68, 138, 255, 0.1),
+        "abstract" #00b0ff rgba(0, 176, 255, 0.1),
+        "info" #00b8d4 rgba(83, 211, 230, 0.1),
+        "tip" #00bfa5 rgba(0, 191, 165, 0.1),
+        "success" #00c853 rgba(0, 200, 83, 0.1),
+        "question" #64dd17 rgba(100, 221, 23, 0.1),
+        "warning" #ff9100 rgba(255, 145, 0, 0.1),
+        "failure" #ff5252 rgba(255, 82, 82, 0.1),
+        "danger" #ff1744 rgba(68, 138, 255, 0.1),
+        "bug" #f50057 rgba(255, 23, 68, 0.1),
+        "example" #651fff rgba(101, 31, 255, 0.1),
+        "quote" #9e9e9e rgba(159, 159, 159, 0.1),
+!default;
 // ========== Admonition ========== //
